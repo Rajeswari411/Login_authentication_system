@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="auth-container">
+    <h2 class="title">Register Account</h2>
+    <form id="registerForm" class="auth-form">
+      <label for="regUsername">Username</label>
+      <input type="text" id="regUsername" placeholder="Enter Username" required>
+      <label for="regPassword">Password</label>
+      <input type="password" id="regPassword" placeholder="Create Password" required>
+      <button type="submit" class="btn">Register</button>
+      <p class="note">
+        Already registered? 
+        <a href="index.html" class="link">Login here</a>
+      </p>
+    </form>
+    <p id="registerMessage" class="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
